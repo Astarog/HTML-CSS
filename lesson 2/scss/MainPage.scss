@@ -148,14 +148,11 @@ $color-pink: #f16d7f;
 }
 
 .add-to-cart {
+    margin-top: 140px;
     position: absolute;
-    top: 500px;
     width: 360px;
     line-height: 58px;
     display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .ButToCard:hover {
@@ -164,6 +161,8 @@ $color-pink: #f16d7f;
 
 .card:hover .add-to-cart {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ButToCard {
